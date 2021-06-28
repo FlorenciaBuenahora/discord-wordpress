@@ -1,0 +1,7 @@
+package-lock.json
+node_modules/
+uploads/
+.sass-cache/
+themes/*/style.css
+themes/*/style.css.map
+wp-themes/

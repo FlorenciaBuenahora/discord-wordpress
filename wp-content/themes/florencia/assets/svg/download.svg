@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>download</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="download" transform="translate(0.000000, 0.000980)" fill="#23272A" fill-rule="nonzero">
+            <polygon id="Path" points="13.707 8.70702 12.293 7.293 9 10.58602 9 8.8817842e-16 7 8.8817842e-16 7 10.58602 3.70697 7.293 2.29297 8.70702 8 14.41402"></polygon>
+            <path d="M14,16.00002 L14,18.00002 L2,18.00002 L2,16.00002 L0,16.00002 L0,18.00002 C0,19.10202 0.897,20.00002 2,20.00002 L14,20.00002 C15.104,20.00002 16,19.10202 16,18.00002 L16,16.00002 L14,16.00002 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
