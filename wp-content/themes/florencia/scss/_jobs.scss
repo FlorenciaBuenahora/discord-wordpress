@@ -1,8 +1,12 @@
 // Header
-.header-jobs p {
-    max-width: 780px;
-    font-size: 16px;
-    line-height: 28px;
+.header-jobs {
+    background-color: $home-background;
+
+    p {
+        max-width: 780px;
+        font-size: 16px;
+        line-height: 28px;
+    }
 }
 .container-jobs {
     height: 900px;
@@ -28,18 +32,18 @@
 } 
 .img-box1 {
     top: 50%;
-    left: -11%;
+    left: -23%;
 
     img {
-        width: 100%;
+        width: 70%;
     }
 }
 .img-box2 {
     top: 75%;
-    left: -28%;
+    left: -49%;
 
     img {
-        width: 60%;
+        width: 40%;
     }
 }
 .img-box3 {
@@ -149,18 +153,18 @@
     // Imgs header
     .img-box1 {
         top: 48%;
-        left: -21%;
+        left: -11%;
 
         img {
-            width: 55%;
+            width: 68%;
         }
     }
     .img-box2 {
         top: 73%;
-        left: -26%;
+        left: -10%;
 
         img {
-            width: 26%;
+            width: 30%;
         }
     }
     .img-box3 {
@@ -198,18 +202,18 @@
     // Imgs header
     .img-box1 {
         top: 32%;
-        left: -34%;
+        left: -6%;
 
         img {
-            width: 30%;
+            width: 68%;
         }
     }
     .img-box2 {
         top: 82%;
-        left: -28%;
+        left: -2%;
 
         img {
-            width: 14%;
+            width: 36%;
         }
     }
     .img-box3 {
