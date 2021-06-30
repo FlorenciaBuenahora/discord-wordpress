@@ -1,4 +1,6 @@
      <!-- Footer -->
+	 <?php $linkAbout = get_permalink(12);?>
+	 <?php $linkJobs = get_permalink(15);?>
      <footer class="py-5 py-lg-6">
      	<div class="container">
      		<div class="row">
@@ -41,8 +43,8 @@
      					</ul>
      					<ul class="list-unstyled">
      						<h5>Company</h5>
-     						<li class="mt-2"><a href="about.html" target="_self">About</a></li>
-     						<li class="mt-2"><a href="jobs.html" target="_self">Jobs</a></li>
+     						<li class="mt-2"><a href="<?php echo $linkAbout; ?>" target="_self">About</a></li>
+     						<li class="mt-2"><a href="<?php echo $linkJobs; ?>" target="_self">Jobs</a></li>
      						<li class="mt-2"><a href="#" target="_self">Branding</a></li>
      						<li class="mt-2"><a href="#" target="_self">Newsroom</a></li>
      					</ul>
