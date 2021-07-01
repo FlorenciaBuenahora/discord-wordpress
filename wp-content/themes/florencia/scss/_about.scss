@@ -1,24 +1,43 @@
-.header-about p {
-    font-size: 16px;
-    line-height: 30px;
+.header-about {
+    min-height: 626px;
+    background-color: $home-background;;
 }
 .about-blurb {
-    max-width: 630px;
-
+    // max-width: 630px;
     h1 {
         font-size: 44px;
+        font-weight: 800 !important;
+        color: $secondary !important;
+    }
+    p {
+        font-family: $primary-font !important;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 500 !important;
+        color: $secondary !important;
     }
 }
-.header-about img {
-    max-width: 90%;
-}
+// .header-about img {
+//     max-width: 90%;
+// }
 .portada {
     .wp-block-media-text .wp-block-media-text__content {
         padding: 0;
     }
 }
-.our-story h2 {
-    font-weight: 800;
+.our-story {
+    h2 {
+        color: $font-color !important;
+        font-weight: 800 !important;
+        font-size: 40px;
+    }
+    p {
+        color: $font-color !important;
+        font-family: $primary-font !important;
+        font-weight: 500 !important;
+        font-size: 18px;
+        line-height: 32px;
+    }
 }
 .our-story h4 {
     color: $primary;
@@ -57,13 +76,16 @@
 
 }
 @include media-breakpoint-up(lg) {
+    .header-about img {
+        max-width: 90% !important;
+    }
     .about-blurb {
-        max-width: 500px;
+        // max-width: 500px;
         h1 {
             font-size: 50px;
         }
-    }
-    .header-about p {
-        font-size: 18px;
+        p {
+            font-size: 18px;
+        }
     }
 }
