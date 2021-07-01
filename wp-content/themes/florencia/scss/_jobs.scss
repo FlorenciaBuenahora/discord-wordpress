@@ -1,11 +1,23 @@
 // Header
 .header-jobs {
     background-color: $home-background;
+    .work-discord .elementor-widget-container {
+        display: flex;
+        justify-content: center;
 
-    p {
-        max-width: 780px;
-        font-size: 16px;
-        line-height: 28px;
+        h1 {
+            color: $secondary !important;
+            font-weight: 800 !important;
+        }
+
+        p {
+            font-family: $primary-font !important;
+            color: $secondary !important;
+            font-weight: 500 !important;
+            max-width: 780px;
+            font-size: 16px;
+            line-height: 28px;
+        }
     }
 }
 .container-jobs {
@@ -23,31 +35,31 @@
 }
 
 // Imgs header
-.box {
-    position: absolute;
+.elementor-widget.box {
+    position: absolute !important;
 
     img {
         border-radius: 16px;
     }
 } 
 .img-box1 {
-    top: 50%;
+    top: 102%;
     left: -23%;
 
     img {
-        width: 70%;
+        width: 100%;
     }
 }
 .img-box2 {
-    top: 75%;
-    left: -49%;
+    top: 160%;
+    left: -24%;
 
     img {
-        width: 40%;
+        width: 60%;
     }
 }
 .img-box3 {
-    top: 58%;
+    top: 120%;
     left: 42%;
 
     img {
@@ -55,11 +67,11 @@
     }
 }
 .img-box4 {
-    top: 77%;
+    top: 160%;
     left: 53%;
 
     img {
-        width: 95%;
+        width: 80%;
     }
 }
 
@@ -71,21 +83,33 @@
         text-decoration: underline;
     }
 }
-.nav-pills .nav-link {
-    background-color: $secondary;
-    font-size: 18px;
-    color: $font-color;
-    border-radius: 28px;
-    box-shadow: $box-shadow-sm;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 16px 32px;
-
-    &:hover {
-        color: $primary;
-        box-shadow: $box-shadow;
+.jobs {
+    h2 {
+        font-family: $Kanit !important;
+        color: $font-color !important;
+        font-size: 40px;
+        font-weight: 700 !important;
+    }
+    p {
+        font-size: 16px;
+        line-height: 30px;
     }
 }
+// .nav-pills .nav-link {
+//     background-color: $secondary;
+//     font-size: 18px;
+//     color: $font-color;
+//     border-radius: 28px;
+//     box-shadow: $box-shadow-sm;
+//     margin-right: 10px;
+//     margin-bottom: 10px;
+//     padding: 16px 32px;
+
+//     &:hover {
+//         color: $primary;
+//         box-shadow: $box-shadow;
+//     }
+// }
 .filters .nav-pills .active:hover {
     color: $secondary;
 }
@@ -137,10 +161,104 @@
 .perks {
     background-color: $bg-lila;
 
-    svg, p {
-        color: $secondary;
+    h2 {
+        font-family: $Kanit !important;
+        color: $font-color !important;
+        font-size: 40px;
+        font-weight: 700 !important;
+    }
+
+    p {
+        font-family: $primary-font !important;
+        font-weight: 500 !important;
+        color: $secondary !important;
+        font-size: 16px;
+        line-height: 30px;
     }
 } 
+
+.elementor-tabs-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .elementor-tab-title {
+        font-family: $primary-font !important;
+        background-color: $secondary;
+        font-size: 18px;
+        font-weight: 500 !important;
+        color: $font-color !important;
+        border-radius: 28px;
+        box-shadow: $box-shadow-sm;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 16px 32px;
+
+        &:hover {
+            color: $primary !important;
+            box-shadow: $box-shadow;
+        }
+    }
+    .elementor-tab-title.elementor-active {
+        background-color: $primary;
+        color: $secondary !important;
+    }
+}
+.elementor-tab-mobile-title  {
+    font-family: $primary-font !important;
+    background-color: $secondary;
+    font-size: 18px;
+    font-weight: 500 !important;
+    color: $font-color !important;
+    border-radius: 28px;
+    box-shadow: $box-shadow-sm;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 16px 32px !important;
+}
+.elementor-tab-mobile-title.elementor-active {
+    background-color: $primary;
+    color: $secondary !important;
+}
+.elementor-tab-content {
+    padding: 20px 0 !important;
+
+    a { 
+            &:hover {
+                border-radius: 16px;
+                text-decoration: none !important;
+                box-shadow: $box-shadow;
+            }
+        }
+
+    .card {
+        border: none;
+        border-radius: 16px;
+        box-shadow: $box-shadow-sm;
+        
+        h4 {
+        font-family: $primary-font !important; 
+        color: $font-color;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 600;
+        }
+        p {
+            font-family: $primary-font !important; 
+            color: $font-color !important;
+            font-size: 14px;
+        }
+        .card-body {
+
+            p {
+            margin-bottom: 7px;
+            line-height: 0;
+            }
+            svg {
+                color: $primary;
+            }
+        }
+    }
+}
 // Media queries
 @include media-breakpoint-up(md) {
     // Header
@@ -152,35 +270,35 @@
     }
     // Imgs header
     .img-box1 {
-        top: 48%;
-        left: -11%;
+        top: 104%;
+        left: -20%;
 
         img {
-            width: 68%;
+            width: 55%;
         }
     }
     .img-box2 {
-        top: 73%;
-        left: -10%;
+        top: 160%;
+        left: -19%;
 
         img {
             width: 30%;
         }
     }
     .img-box3 {
-        top: 61%;
-        left: 28%;
+        top: 132%;
+        left: 29%;
 
         img {
             width: 38%;
         }
     }
     .img-box4 {
-        top: 79%;
+        top: 172%;
         left: 24%;
 
         img {
-            width: 50%;
+            width: 45%;
         }
     }
 }
@@ -192,8 +310,8 @@
             font-size: 50px;
         }
         p {
-            font-size: 18px;
-            line-height: 38px;
+            font-size: 18px !important;
+            line-height: 38px !important;
         }
     }
     .container-jobs {
@@ -201,35 +319,47 @@
     }
     // Imgs header
     .img-box1 {
-        top: 32%;
-        left: -6%;
+        top: 25%;
+        left: -39%;
 
         img {
-            width: 68%;
+            width: 38%;
         }
     }
     .img-box2 {
         top: 82%;
-        left: -2%;
+        left: -38%;
 
         img {
-            width: 36%;
+            width: 25%;
         }
     }
     .img-box3 {
-        top: 36%;
-        left: 32%;
+        top: 30%;
+        left: 41%;
 
         img {
-            width: 20%;
+            width: 25%;
         }
     }
     .img-box4 {
-        top: 72%;
-        left: 31%;
+        top: 82%;
+        left: 39%;
 
         img {
-            width: 28%;
+            width: 34%;
+        }
+    }
+    .jobs {
+        p {
+            font-size: 18px;
+            line-height: 32px;
+        }
+    }
+    .perks {
+        p {
+            font-size: 18px;
+            line-height: 32px;
         }
     }
 }
