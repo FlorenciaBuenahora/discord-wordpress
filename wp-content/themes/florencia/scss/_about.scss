@@ -27,6 +27,7 @@
 }
 .our-story {
     h2 {
+        font-family: $Kanit !important;
         color: $font-color !important;
         font-weight: 800 !important;
         font-size: 40px;
@@ -38,12 +39,33 @@
         font-size: 18px;
         line-height: 32px;
     }
+    h3 {
+        font-family: $Kanit !important;
+        color: $font-color !important;
+        font-size: 30px;
+        font-weight: 600 !important;
+    }
 }
-.our-story h4 {
-    color: $primary;
+.metrics {
+    h4 {
+        font-family: $Kanit !important;
+        color: $primary !important;
+        font-size: 28px;
+        font-weight: 700 !important;
+    }
+    p {
+        font-family: $primary-font !important;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 500 !important;
+        color: $font-color !important;
+    }
 }
 .office h2 {
-    color: $secondary;
+    font-family: $Kanit !important;
+    color: $secondary !important;
+    font-weight: 800 !important;
+    font-size: 40px;
 }
 .office, .work-with-us {
     background-color: $font-color;
@@ -55,6 +77,12 @@
     }
     h4 {
         color: $primary;
+    }
+    p {
+        font-family: $primary-font !important;
+        color: $font-color !important;
+        font-size: 18px;
+        line-height: 32px;
     }
     .btn {
         width: 100%;
